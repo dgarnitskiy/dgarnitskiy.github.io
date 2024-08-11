@@ -1,0 +1,18 @@
+//math
+$pi: 3.14159265359 !default;
+
+// colors
+$bg-color: #fff;
+$text-color: #000;
+$accent-color: #e0e6ef;
+$primary-color: #0061ff;
+
+// control params
+$control-width: 45px;
+$control-height: 29px;
+$control-text-padding: $control-width + 20px;
+$control-border-radius: 20px;
+
+// circle params
+$circle-radius: 60px;
+$circle-length: 2 * $pi * $circle-radius;

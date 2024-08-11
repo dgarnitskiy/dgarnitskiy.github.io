@@ -1,0 +1,24 @@
+.progress {
+	display: block;
+	&_hidden {
+		display: none;
+	}
+	&__circles {
+		height: 140px;
+		width: 140px;
+		transform: rotate(-90deg);
+	}
+	&__circle {
+		fill: none;
+		stroke-width: 10px;
+		r: $circle-radius;
+		&_bg {
+			stroke: $accent-color;
+		}
+		&_indicator {
+			stroke: $primary-color;
+			stroke-dasharray: $circle-length;
+			stroke-dashoffset: 300;
+		}
+	}
+}

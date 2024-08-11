@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/main.css" />
+		<title>Progress</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="actions">
+				<h1 class="actions__title">Progress</h1>
+				<div class="actions__content">
+					<div id="progress"></div>
+
+					<div class="actions__controls">
+						<label class="actions__control actions__control_number">
+							<input
+								class="actions__control--input"
+								id="actions-value"
+								type="number"
+								value="50"
+								min="0"
+								max="100"
+							/>
+							<div class="actions__control--text">Value</div>
+						</label>
+						<label class="actions__control actions__control_checkbox">
+							<input
+								class="actions__control--input"
+								id="actions-animate"
+								type="checkbox"
+							/>
+							<div class="actions__control--text">Animate</div>
+						</label>
+						<label class="actions__control actions__control_checkbox">
+							<input
+								class="actions__control--input"
+								id="actions-hide"
+								type="checkbox"
+							/>
+							<div class="actions__control--text">Hide</div>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="module" src="./js/main.js"></script>
+	</body>
+</html>
